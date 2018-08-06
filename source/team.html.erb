@@ -1,0 +1,22 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="team">
+  <div class="team-content">
+  <h2>This template was built by</h2>
+    <ul class="list-inline">
+    <% %w(SWE1902 harrymryder).each do |username| %>
+      <li class="list-inline-item">
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{username}", class: "img-circle" %>
+        <p>
+          <% link_to "#{username}", "https://github.com/#{username}"%>
+             <% link_to "https://github.com/#{username}", target: "_blank" do %>
+            <i class="fa fa-github"></i> <%= username %>
+          <% end %>
+        </p>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
