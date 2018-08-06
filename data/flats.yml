@@ -1,0 +1,21 @@
+harrymryder:
+  name: "Harry's home"
+  description: "Charming room"
+  city_name: "Shanghai"
+  city_slug: "shanghai"
+  wifi: false
+  rating: 4
+izzy:
+  name: "Izzy's home"
+  description: Small flat in Berlin
+  city_name: "Berlin"
+  city_slug: "berlin"
+  wifi: true
+  rating: 3
+josh:
+  name: "Josh's home"
+  description: Nice flat in Rio
+  city_name: "Rio"
+  city_slug: "rio"
+  wifi: true
+  rating: 5
